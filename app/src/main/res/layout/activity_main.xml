@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@color/bgcolor"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_your"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="#00B4D8"
+        android:padding="10sp"
+        android:text="@string/age"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/in_minutes"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnDate"
+        android:layout_height="wrap_content"
+        android:text="@string/select_age"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#00B4D8"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvselecteddate"
+        android:text="@string/dd_mm_yyyy"
+        android:layout_marginTop="20sp"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_date"
+        android:layout_marginTop="20sp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/minutestime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1333"
+        android:layout_marginTop="20sp"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minutes"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"/>
+</LinearLayout>
